@@ -18,7 +18,8 @@ function GridLayout() {
     return (
         <div id='fCom'>
             <div id='header'>
-                <h1 id='fH'>welcomme to Find The</h1>
+                <h1 id='fH'>welcomme to the game</h1>
+                <h1 id='fH'>Find The</h1>
                 <h1 id='lh'>Secret Color:</h1>
                 <div id='red'></div>
             </div>
