@@ -40,7 +40,7 @@
   grid-template-rows: repeat(10, 10%);
 }
 
-#square {
+.square {
   background-color: #444953;
   height: 100%;
   width: 100%;
@@ -48,10 +48,34 @@
   color: #B7C0D1;
 }
 
-#click{
+.square:hover {
+  background-color: #858481;
+}
+
+#click {
   color: white;
 }
 
-#keep{
+#keep {
   color: #F7CD50;
+}
+
+.one {
+  background-color: #444953;
+  height: 100%;
+  width: 100%;
+  border: solid 0.1rem;
+  color: #B7C0D1;
+}
+
+.one:hover {
+  background-color: #858481;
+}
+
+.clickc{
+  background-color: #F7CD50;
+}
+
+.clickone{
+  background-color: rgb(151, 151, 240);
 }
