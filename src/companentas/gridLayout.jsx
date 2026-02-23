@@ -17,8 +17,7 @@ function GridLayout() {
                     return(
                         <div id='square'></div>
                     )
-                  })
-                )
+                  }))
                })}
             </div>
             <div>
