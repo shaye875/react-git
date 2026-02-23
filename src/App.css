@@ -1,1 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+#fCom {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  gap: 1rem;
+}
+
+#red {
+  background-color: #C92180;
+  width: 3rem;
+  height: 2.7rem;
+  border: solid 0.1rem;
+  color: #917986;
+}
+
+#fH {
+  color: white;
+}
+
+#lh {
+  color: #E16162;
+}
+
+#board {
+  height: 60vh;
+  width: 40rem;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+}
+
+#square {
+  background-color: #444953;
+  height: 100%;
+  width: 100%;
+  border: solid 0.1rem;
+  color: #B7C0D1;
+}
+
+#click{
+  color: white;
+}
+
+#keep{
+  color: #F7CD50;
+}
