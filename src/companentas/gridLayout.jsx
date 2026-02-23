@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 function GridLayout() {
-    const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     const [click, setClick] = useState(0)
     const random = Math.floor(Math.random() * 100)
     const [arr2, setArr] = useState([])
